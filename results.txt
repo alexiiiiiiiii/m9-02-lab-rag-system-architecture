@@ -1,0 +1,38 @@
+--- STANDARD RAG RESULTS ---
+
+Question: How long do I have to get a full refund?
+Retrieved Sources:
+- policy.md
+- handbook.md
+- policy.md
+Answer: You can get a full refund within 30 days of purchase, provided the item is unused and in its original packaging [policy.md].
+
+----------------------------------------
+
+Question: How do I reset my password?
+Retrieved Sources:
+- it.md
+- handbook.md
+- it.md
+Answer: You can reset your password from the login screen by clicking 'Forgot password' [it.md].
+
+----------------------------------------
+
+Question: What is the company's stock price today?
+Retrieved Sources:
+- policy.md
+- handbook.md
+- it.md
+Answer: I don't know
+
+----------------------------------------
+
+--- STRETCH GOAL: TOP 1 RETRIEVAL ---
+
+Question: How long do I have to get a full refund?
+Retrieved Sources:
+- policy.md
+Answer: You can get a full refund within 30 days of purchase, provided the item is unused and in its original packaging [policy.md].
+
+Trade-off between too little and too much context:
+Too little context risks missing the necessary information to answer the question, while too much context can exceed the model's token limit, increase API costs, and potentially distract the model with irrelevant information.
